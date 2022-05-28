@@ -40,9 +40,10 @@ ex) Update()함수에 캐릭터 이동 방향 계산, LateUpdate()함수에 카�
     * 두 오브젝트 중 하나 이상은 RigidBody 컴포넌트를 가지고 있어야 함. - IsKinematic은 비활성롸
     * 두 오브젝트가 Collider 컴포넌트를 가지고 있어야 함. - IsTrigger는 비활성화
 * Collider와 Collision의 차이
-|Collision|부딪친 오브젝트의 Transform, Collider, GameObject, RigidBody, 속도의 정보감 담겨져 있다.|
-|:---:|:---:|
-|Collider|물리적인 정보는 담고 있지 않아 Collision보다 담고 있는 정보가 적다|
+
+    |Collision|부딪친 오브젝트의 Transform, Collider, GameObject, RigidBody, 속도의 정보감 담겨져 있다.|
+    |:---:|:---:|
+    |Collider|물리적인 정보는 담고 있지 않아 Collision보다 담고 있는 정보가 적다|
 
 ## 8) void OnEnable()
 * 스크립트 혹은 스크립트가 붙어있는 오브젝트가 활성화 될 때 마다 자동 실행
