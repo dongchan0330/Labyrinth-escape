@@ -4,4 +4,5 @@
 ```c#
 float hAxis = Input.GetAxisRaw("Horizontal");
 float vAxis = Input.GetAxisRaw("Vertical");
+Vector3 moveVec = new Vector3(hAxis, 0, vAxis).normalized; 
 ```
