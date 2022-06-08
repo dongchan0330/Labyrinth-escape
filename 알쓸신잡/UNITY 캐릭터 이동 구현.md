@@ -9,4 +9,4 @@ float hAxis = Input.GetAxisRaw("Horizontal");
 float vAxis = Input.GetAxisRaw("Vertical");
 Vector3 moveVec = new Vector3(hAxis, 0, vAxis).normalized; 
 ```
-<img  align = "left" src = "./image/input manager.png>
+<img  align = "left" src = "./image/input manager.png", height = "100x", width = "200x">
